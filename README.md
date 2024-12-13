@@ -13,15 +13,19 @@ git clone https://github.com/Doctor-TOTORO/revolution.git
 ```
 git status
 ```
-接着可能只显示一行字符串，或者含有add或delete的红色字符串，代表有文件被增加或删除，请按如下操作
+接着可能只显示一行字符串，或者红色字符串，代表有文件被增加或删除，请按如下操作
 ```
 git add/delete [提示增加或删除的文件名]
 ```
+如果文件名/文件夹名为汉字，建议按如下操作
+```
+git add/delete [文件名/文件夹名] (按tab键补全)
+···
 提交更新前请检查是否已完成全部add/delete操作
 ```
 git status
 ```
-如果含有add或delete的字符串全部变绿，则可以进行上传操作
+如果字符串全部变绿，则可以进行上传操作
 ```
 git commit -m "任意字符串"
 git push
