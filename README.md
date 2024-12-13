@@ -5,7 +5,7 @@
 ## 使用方法
 克隆：任意地方右键终端打开，输入下列字符串
 ```
-git clone https://github.com/Doctor-TOTORO/revolution/tree/main
+git clone https://github.com/Doctor-TOTORO/revolution.git
 ```
 增添文件方法与本地相同，建议不要随意删减文件，以便其余社友使用  
 对库内文件/文件夹进行修改后，请按下列操作确保更新  
